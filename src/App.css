@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(247, 244, 244);
+}
+
+ul {
+  list-style: none;
+}
+
+.main-content {
+  width: 40%;
+  background-color: white;
+  border-radius: 7px;
+  margin: 0 auto;
+}
+
+.shapka {
+  background-color: brown;
+  height: 50px;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+  color: white;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.brown {
+  background-color: brown !important;
+}
+
+.item-container {
+  border-bottom: 1px solid black;
+}
+
+.list-item {
+  font-weight: 500;
+  font-size: larger;
+}
+
+.del-btn {
+  position: absolute;
+  right: 5px;
+  background: none;
+  border: none;
+}
